@@ -1,0 +1,61 @@
+/* Encabezados */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*calcula el tamaño ancho y alto de un elemento */
+}
+
+.michi_header{
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #FFF7F9;
+
+
+
+}
+
+.michi_header img{
+    width: 10%;
+    float: left;
+
+}
+
+.michi_header h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5vw; /* vw sirve para la letra responsiva */
+    color: #FF91AF;
+    text-align: center;
+    margin-right:10%;
+    
+}
+
+
+.michi_header nav{
+    width: 60%;
+    margin: 2% auto;
+    display: flex;
+
+}
+
+
+.michi_header a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    color: #FF91AF;
+    text-decoration: none;
+    width: 60%;
+    text-align: center;
+
+}
+
+.michi_header a:hover{
+    color: #CAFFD0;
+}
+
+.clearfix::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}

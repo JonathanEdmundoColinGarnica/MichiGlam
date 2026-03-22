@@ -1,0 +1,70 @@
+/*Estilos Ofertas */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.michi_ofertas{
+    max-width: 80%;
+    margin: 1% 10%;
+}
+.michi_ofertas img{
+    width: 100%;
+    box-shadow: 0 8px 12px #000000;
+    height: 400px;
+}
+
+.michi_ofertsec img:hover{
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+
+.michi_ofertsec {
+    max-width: 90%;
+    margin: 2% 5%;
+    grid-template-columns: auto auto auto;
+    gap: 1%;
+    display: grid;
+}
+
+.michi_ofertsec img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px 12px #000000;
+    border-radius: 16px;
+
+}
+
+.michi_listaoferta{
+    max-width: 80%;
+    margin: 2% 10%;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 4%;
+    display: grid;
+}
+
+.michi_galleryof{
+    max-width: 100%;
+    box-shadow: 0 8px 12px #000000;
+    border-radius: 12px;
+
+
+}
+
+.michi_galleryof img{
+    max-width: 100%;
+    height: auto;
+    padding: 6%;
+}
+
+.michi_galleryof p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+}
+

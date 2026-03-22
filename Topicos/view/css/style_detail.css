@@ -1,0 +1,63 @@
+/*Estilos Detalles producto*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.michi_detail{
+    max-width: 80%;
+    margin: 5% 10%;
+    grid-template-columns: 50% 50%;
+    column-gap: 1%;
+    display: grid;
+}
+
+.michi_detail img{
+    width: 60%;
+    padding: 1%;
+    margin: 1% 10%;
+    
+}
+
+.michi_descdetail{
+    max-width: 100%;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+#michi_nomdetail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#michi_prescdetail{
+    margin-top: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: #ca1bca;
+    letter-spacing: 1px;
+}
+
+#btncomprar{
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    background-color: #FF91AF;
+    text-align: center;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    padding: 1.5%;
+    cursor: pointer;
+}
+
+#btncomprar:hover{
+    background-color: #CAFFD0;
+
+}
